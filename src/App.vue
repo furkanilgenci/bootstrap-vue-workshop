@@ -1,28 +1,96 @@
-<template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<template lang="pug">
+#app
+  div
+    .container
+      h1 Plans
+      .row
+        .col-12.col-lg-4.col-xl-3
+          .card.plan-card
+            .card-body
+              h5.card-title Some travel plan
+              p.card-text
+                | Some quick example text to build on the card title and make up the bulk of the card's content.
+              a.btn.btn-primary(href='#') View
+        .col-12.col-lg-4.col-xl-3
+          .card.plan-card
+            .card-body
+              h5.card-title Some travel plan
+              p.card-text
+                | Some quick example text to build on the card title and make up the bulk of the card's content. 
+              a.btn.btn-primary(href='#') View
+        .col-12.col-lg-4.col-xl-3
+          .card.plan-card
+            .card-body
+              h5.card-title Some travel plan
+              p.card-text
+                | Some quick example text to build on the card title and make up the bulk of the card's content.
+              a.btn.btn-primary(href='#') View
+        .col-12.col-lg-4.col-xl-3
+          .card.plan-card
+            .card-body
+              h5.card-title Some travel plan
+              p.card-text
+                | Some quick example text to build on the card title and make up the bulk of the card's content.
+              a.btn.btn-primary(href='#') View
+        .col-12.col-lg-4.col-xl-3
+          .card.plan-card
+            .card-body
+              h5.card-title Some travel plan
+              p.card-text
+                | Some quick example text to build on the card title and make up the bulk of the card's content.
+              a.btn.btn-primary(href='#') View
+        .col-12.col-lg-4.col-xl-3
+          .card.plan-card
+            .card-body
+              h5.card-title Some travel plan
+              p.card-text
+                | Some quick example text to build on the card title and make up the bulk of the card's content.
+              a.btn.btn-primary(href='#') View
+        .col-12.col-lg-4.col-xl-3
+          .card.plan-card
+            .card-body
+              h5.card-title Some travel plan
+              p.card-text
+                | Some quick example text to build on the card title and make up the bulk of the card's content.
+              a.btn.btn-primary(href='#') View
+        .col-12.col-lg-4.col-xl-3
+          .card.plan-card
+            .card-body
+              h5.card-title Some travel plan
+              p.card-text
+                | Some quick example text to build on the card title and make up the bulk of the card's content.
+              a.btn.btn-primary(href='#') View
+        .col-12.col-lg-4.col-xl-3 
+          .card.plan-card
+            .card-body
+              h5.card-title Some travel plan
+              p.card-text
+                | Some quick example text to build on the card title and make up the bulk of the card's content.
+              a.btn.btn-primary(href='#') View
+        .col-12.col-lg-4.col-xl-3 
+          .card.plan-card
+            .card-body
+              h5.card-title Some travel plan
+              p.card-text
+                | Some quick example text to build on the card title and make up the bulk of the card's content.
+              a.btn.btn-primary(href='#') View
+        .col-12.col-lg-4.col-xl-3
+          .card.plan-card
+            .card-body
+              h5.card-title Some travel plan
+              p.card-text
+                | Some quick example text to build on the card title and make up the bulk of the card's content.
+              a.btn.btn-primary(href='#') View
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+.plan-card {
+  margin-top: 8px;
 }
 </style>
