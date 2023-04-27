@@ -2,7 +2,13 @@
 </script>
 
 <template>
-  <h1>hello</h1>
+  <div>
+    <h1>hello</h1>
+    <button class="btn btn-primary">Primary button</button>
+    <button class="btn btn-secondary">Secondary button</button>
+
+  </div>
+  
 </template>
 
 <style scoped>
