@@ -1,17 +1,61 @@
-<script setup>
+<script>
+export default {
+  data() {
+    return {
+      projects: [
+        { name: "Web page" },
+        { name: "Backend project" },
+        { name: "Marketing project" },
+        { name: "Game project" },
+        { name: "Our project" },
+      ],
+    };
+  },
+};
 </script>
 
 <template>
   <div>
-    <h1>hello</h1>
-    <button class="btn btn-primary">Primary button</button>
-    <button class="btn btn-secondary">Secondary button</button>
-
+    <div class="container-fluid bg-dark">
+      <div class="row">
+        <h1>Header</h1>
+      </div>
+    </div>
+    <h2 class="page-title">Projects</h2>
+    <div class="container">
+      <div class="row">
+        <div v-for="project in projects" :key="project.name" class="col-12 col-md-4 col-lg-3">
+          <div class="card project-card">
+            <div class="card-body">
+              <h5 class="card-title">{{ project.name }}</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg-warning page-footer">
+      <div class="row">
+        <h1>footer</h1>
+      </div>
+    </div>
   </div>
-  
 </template>
 
 <style scoped>
+.page-title {
+  margin: 12px 8px;
+}
+.page-footer {
+  margin-top: 24px;
+}
+.project-card {
+  margin-top: 8px;
+}
 nav {
   width: 100%;
   font-size: 12px;
